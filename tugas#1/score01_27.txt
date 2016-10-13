@@ -1,0 +1,8 @@
++10 tugas selesai minimal 5 lagu
++10 5 link ok
++5 untuk 5 halaman lagu yang bisa back ke index.html
++5 untuk 5 judul lagu ke wikipedia
++2 link ke facebook anda dari halaman index
+-5 karena terlambat upload digithub
+-----
+27
