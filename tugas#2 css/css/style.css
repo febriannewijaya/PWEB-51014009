@@ -1,0 +1,40 @@
+body
+{
+	background-color: #ffff66;
+}
+
+a
+{
+	color: navy;
+}
+
+img
+{
+	width 500px;
+}
+
+h2
+{
+	color: #ff6600;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: georgia;	
+}
+
+p
+{
+	color: #000000;
+	font-family: georgia;
+	font-size: 18px;
+	text-align: center;
+	border-style: outset;
+}
+
+.judulutama
+{
+	color: #FF4500;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 38px;
+	font-family: verdana;
+}
