@@ -1,0 +1,108 @@
+body 
+{
+    background: url(images.png) no-repeat fixed top center; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.bagian{  /*bagian lagu*/
+	max-width: 1000px;
+	border:3px;
+	margin: 40px auto;
+	border-radius: 40px;
+	overflow: hidden;
+	padding: 10px;
+	background : url(fix.png);
+	background-size: 90% 90%;
+	box-shadow: 1px -1px 4px 1px rgba(205,133,63,1);
+}
+
+.judul /*judul saja*/
+{	
+	font-family: "georgia";
+	height: 60px;
+	text-align:center;
+	color: #000033; /*warna huruf*/
+	font-size: 35px;
+	text-shadow:0px 0px 5px #cdc9c9; 	
+}
+
+h3
+{
+	text-align: center;
+	height: 24px;
+	margin: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: georgia;
+	color: #000033;
+
+}
+
+.menu /*lagu*/
+{
+	font-size: 16px;
+	width: 200px;
+	height: 200px;	
+	border-radius: 100px;
+	padding: 50px;
+	margin: 10px;
+	float: left; 
+	background-color: #ffff99;
+	border-style: dotted;
+	box-shadow: 1px -1px 4px 1px rgba(205,133,63,1);
+	overflow-y: visible;
+	position: relative;
+}
+
+.lirik /*lagu*/
+{
+	overflow-y: auto;
+	width: 600px;
+	height: 450px;
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #ffcc66;
+	box-shadow: 1px -1px 2px 3px rgba(205,133,63,1);
+ 	border-style: outset ,color: #ffcc66 ;
+}
+
+.lirik img
+{
+	width: 350px;
+	margin: auto;
+	float: auto;
+	position: relative;
+	height: 200px;
+}
+
+
+@media screen and (max-width: 1080px)
+{
+	.bagian  {
+		width: 100%;
+	}
+	.menu  {
+		width: 25%;
+		background-color: #ffff99;
+	}
+	.lirik {
+		width: 68%;
+		float: right;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{	
+	h2 
+	{
+	text-align: center;
+	}
+	.menu , .lirik {
+		width: auto;
+		float: none;
+	}		
+}
