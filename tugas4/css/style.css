@@ -1,6 +1,155 @@
-.img
+.isi
 {
-width: 500px;
-height: 500px
+	background-color: #00bfff;
 }
 
+
+
+h4{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #363636;
+}
+.bg
+{
+	background-color: #00bfff;
+}
+
+.judul
+{
+  color: #363636;
+}
+
+.img
+{
+  width: 500px;
+  height: 400px;
+
+  margin: 0px auto;  
+}
+
+.imganak
+{
+  margin-top: -60px;
+    display: block;
+  width: 900px;
+  height: auto;
+
+}
+
+header{
+	background-color: #fff;
+}
+
+.navbar-custom1 
+{
+  background: #00bfff;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+
+}
+.navbar-custom1 a:focus,
+.navbar-custom1 .navbar-brand 
+{
+  color: #828282;
+  outline: none;
+} 
+
+.navbar-custom1 .navbar-brand:hover,
+.navbar-custom1 .navbar-brand:focus,
+.navbar-custom1 .navbar-brand:active,
+.navbar-custom1 .navbar-brand.active 
+{
+  color: #323232;
+
+  background-color: #fffafa;
+  border-radius: 100px;
+
+}
+.navbar-custom1 .navbar-nav li a {
+  letter-spacing: 7px;
+  font-size: 27px;
+  color: #828282;
+
+}
+.navbar-custom1 .navbar-nav li.active a,
+.navbar-custom1 .navbar-nav li.active a:hover,
+.navbar-custom1 .navbar-nav li.active a:focus,
+.navbar-custom1 .navbar-nav li.active a:active {
+  outline: none;
+  color: #323232;
+  background: #fffafa;
+  border-radius: 100px;
+
+ 
+}
+
+.navbar-custom1 .navbar-toggle {
+  color: #323232;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) 
+{
+    .navbar-custom1 
+    {
+      padding: 25px 0;
+      -webkit-transition: padding 0.3s;
+      -moz-transition: padding 0.3s;
+      transition: padding 0.3s;
+    }
+    .navbar-custom1 .navbar-brand 
+    {
+      font-size: 2em;
+      -webkit-transition: all 0.9s;
+      -moz-transition: all 0.9s;
+      transition: all 0.9s;
+    }
+    .navbar-custom1.affix 
+    {
+      padding: 10px 0;
+    }
+    .navbar-custom1.affix .navbar-brand
+    {
+      font-size: 1.5em;
+    }
+}
+
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: #00bfff;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: #00bfff;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: #00bfff;
+  color: #2C3E50;
