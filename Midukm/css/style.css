@@ -23,30 +23,44 @@ img.third-slide{
     color: #fff;
     background-color: #43AEE0;
 }
-//----------------------------------------------------//
+
+p.text
+{
+    color: #FFFF33;
+}
+/*-------------------Visi Misi-----------------*/
 h2.visi
 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: Times New Roman;
+    
 }
 
 p.visi
 {
     font-size: 20px;
     font-family: Times New Roman;
-
-}
-
-//------------------------------------------------------//
-h2
-{
-    font-size: 25px;
+    
 }
 
 .visi
 {
     font-size: 16px;
+    color: #FFFF33;
 }
+
+/*--------------------Visi misi-------------------------*/
+
+/*--------------------Info Kegiatan---------------------*/
+
+
+/*-------------------Info kegiatan-----------------------*/
+h2
+{
+    font-size: 25px;
+    color: #FF0000;
+}
+
 
 h1 {
 	font-size: 50px;
@@ -71,7 +85,7 @@ h1 {
 }
 
 body {
-	background-color: #bae8fc;
+	background-color: #000066;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
@@ -89,7 +103,6 @@ body {
     color: #203983;
     white-space: nowrap;
 }
-
 
 .navbar-inverse .navbar-brand {
     color: #c2d738;
